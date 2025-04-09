@@ -8,7 +8,7 @@ import java.util.List;
 
 public class DiagnosticMoneyReciptDTo {
 
-    private Long id;
+
     private String patientName;
     private Integer age;
     private String sex;
@@ -26,13 +26,6 @@ public class DiagnosticMoneyReciptDTo {
 
     private LocalDateTime createdAt;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getPatientName() {
         return patientName;

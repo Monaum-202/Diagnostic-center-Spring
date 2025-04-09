@@ -173,7 +173,6 @@ public class DiagnosticMoneyReceipt {
     // Method to map Entity to DTO
     public DiagnosticMoneyReciptDTo toDTO() {
         DiagnosticMoneyReciptDTo dto = new DiagnosticMoneyReciptDTo();
-        dto.setId(this.id);
         dto.setPatientName(this.patientName);
         dto.setAge(this.age);
         dto.setSex(this.sex);
